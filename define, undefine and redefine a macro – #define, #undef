@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float radius, pi, area;
+    pi = 3.14159;
+    radius = 12;
+    area = pi * radius * radius;
+
+    printf("Area = %f", area);
+
+    return 0;
+}
